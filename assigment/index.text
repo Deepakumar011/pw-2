@@ -1,0 +1,48 @@
+QS.1->    What is the Internet? Explin in your own words.
+
+ANS->1
+
+The internet is a vast network of interconnected computers and devices spread across the globe. It allows these devices to communicate with each other using a common language called the Internet Protocol (IP). Through the internet, people can share information, communicate with each other in real-time through various means such as email, instant messaging, and social media, access a vast amount of resources and services, and collaborate on projects regardless of geographical distance. Essentially, it serves as a massive infrastructure that facilitates the exchange of data and ideas on a global scale
+
+
+QS.2->
+what is  web browser? simple words.
+
+ANS->
+
+A web browser is a software application that allows you to access and view information on the internet. It's like a window through which you can see and interact with websites, web pages, and other online content. You use a web browser to search for information, watch videos, shop online, check your email, and much more. Popular examples of web browsers include Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari
+
+
+
+QS.3->
+what is the browser engine.
+
+ANS->
+A browser engine, also known as a layout engine or rendering engine, is a crucial component of a web browser. It's responsible for interpreting the code of web pages (usually written in languages like HTML, CSS, and JavaScript) and rendering them into a format that users can see and interact with on their screens.
+
+When you type a web address into your browser's address bar and hit Enter, the browser engine goes to work. It parses the HTML code of the webpage, interprets the CSS for styling, and executes the JavaScript for dynamic functionality. Then, it lays out the content according to the instructions in the code and renders it visually on your screen.
+
+
+QS.4
+what is a static site.
+ANS->
+
+A static site is a type of website that consists of fixed content which remains the same for every user who visits the site. The content of a static site is typically coded directly in HTML, CSS, and sometimes JavaScript, and it doesn't change dynamically based on user interactions or data from a database.
+
+Static sites are often used for simple websites that don't require frequent updates or user interactivity. They are relatively easy to set up and maintain because there's no need for server-side processing or database management. Examples of static sites include personal blogs, portfolios, informational websites, and landing pages.
+
+In contrast to dynamic websites, where content can change based on user input or database queries, static sites deliver the same pre-defined content to every visitor, making them straightforward and fast to load.
+
+
+
+
+
+
+QS.5->
+what is a dynamic site
+ANS->
+A dynamic site is a type of website that generates content dynamically, meaning the content can change based on user interactions, input, or other factors such as data retrieved from a database or external sources. Dynamic websites typically use server-side programming languages like PHP, Python, Ruby, or JavaScript (Node.js) to process user requests, retrieve data from databases, and generate HTML content on-the-fly.
+
+Unlike static sites where the content remains the same for all users, dynamic sites can provide personalized experiences tailored to individual users. Examples of dynamic sites include social media platforms, e-commerce websites, online banking portals, content management systems (CMS), and web applications.
+
+Dynamic sites are more complex to develop and maintain compared to static sites because they require server-side processing, database management, and often involve more sophisticated programming techniques. However, they offer greater flexibility and interactivity, allowing users to interact with the site in various ways and receive content that is customized to their preferences or needs.
