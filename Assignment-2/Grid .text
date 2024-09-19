@@ -1,0 +1,93 @@
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+q1
+       What is the grid 
+ans
+What is the Grid?
+CSS Grid is a two-dimensional layout system in CSS that allows you to create complex and responsive grid-based layouts with ease. It provides a powerful way to align and distribute space among items in a container, both horizontally and vertically.
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ q2
+        What is the difference between Flex and grid
+ans=    Difference Between Flexbox and Grid
+Flexbox and Grid are both layout systems in CSS, but they serve different purposes:
+
+Flexbox:
+
+One-dimensional layout system.
+Primarily used for laying out items in a single direction: either as a row or a column.
+Focuses on aligning and distributing space along one axis at a time.
+Use Case: Ideal for small-scale layouts like navigation bars, buttons, and single-dimensional lists.
+Grid:
+
+Two-dimensional layout system.
+Allows for laying out items in both rows and columns simultaneously.
+Provides more control over complex layouts with both horizontal and vertical alignment.
+Use Case: Ideal for large-scale layouts like entire web pages, dashboards, or complex design structures.
+  
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+ q3
+        How can you define rows and columns for your grid 
+ans
+Defining Rows and Columns in Grid
+To define rows and columns in a grid container, you use the grid-template-rows and grid-template-columns properties. You can specify the size of rows and columns using fixed units (e.g., px, em), relative units (e.g., %, fr), or auto-sizing.
+
+Example:
+css
+Copy code
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Creates two columns with relative sizes */
+  grid-template-rows: 100px auto; /* Creates two rows with specified heights */
+}
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+q4
+        List any two properties of the grid item and grid container. 
+ans
+Properties of Grid Items and Grid Container
+Grid Container Properties:
+
+grid-template-areas: Defines named grid areas to simplify layout and positioning of items.
+
+Example:
+css
+Copy code
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+grid-gap: Defines the space between rows and columns in the grid.
+
+Example:
+css
+Copy code
+.grid-container {
+  display: grid;
+  grid-gap: 10px; /* Adds 10px gap between rows and columns */
+}
+Grid Item Properties:
+
+grid-column: Specifies how many columns an item should span and where it should start and end.
+
+Example:
+css
+Copy code
+.grid-item {
+  grid-column: 1 / 3; /* Spans from column line 1 to line 3 */
+}
+grid-row: Specifies how many rows an item should span and where it should start and end.
+
+Example:
+css
+Copy code
+.grid-item {
+  grid-row: 2 / 4; /* Spans from row line 2 to line 4 */
+}
+Summary
+CSS Grid is a two-dimensional layout system that allows for complex grid-based designs.
+Flexbox is a one-dimensional layout system suitable for simpler layouts, while Grid is better for complex, two-dimensional layouts.
+Rows and columns in a grid are defined using grid-template-rows and grid-template-columns.
+Grid container properties include grid-template-areas and grid-gap, while grid item properties include grid-column and grid-row.
+
