@@ -1,0 +1,172 @@
+
+  -----q2----------
+What are media queries in CSS and their use case 
+
+ans
+Media Queries in CSS
+Media Queries in CSS are used to apply styles based on the characteristics of the device or viewport, such as its width, height, or orientation. They enable responsive design, allowing web pages to adapt to different screen sizes and devices.
+
+Syntax:
+css
+Copy code
+@media (condition) {
+  /* CSS rules */
+}
+Example:
+css
+Copy code
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+Use Case:
+
+Responsive Design: Media queries are crucial for creating designs that work well on various devices, from mobile phones to large desktop screens. They help adjust layouts, font sizes, and other styles based on the viewport size.
+
+
+    ===========  q2===========
+Difference between min-width and max-width in media queries in CS 
+ans
+Difference Between min-width and max-width in Media Queries
+min-width: Applies styles when the viewport width is greater than or equal to the specified value. It’s used for responsive design targeting larger devices (like tablets and desktops) starting from a certain width.
+
+Example:
+css
+Copy code
+@media (min-width: 768px) {
+  .sidebar {
+    display: block;
+  }
+}
+max-width: Applies styles when the viewport width is less than or equal to the specified value. It’s used to target smaller devices (like mobile phones) up to a certain width.
+
+Example:
+css
+Copy code
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+
+
+==========q3============
+Explain float property and clear property in CSS with examples. 
+ans
+
+Media Queries in CSS
+Media Queries in CSS are used to apply styles based on the characteristics of the device or viewport, such as its width, height, or orientation. They enable responsive design, allowing web pages to adapt to different screen sizes and devices.
+
+Syntax:
+css
+Copy code
+@media (condition) {
+  /* CSS rules */
+}
+Example:
+css
+Copy code
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+Use Case:
+
+Responsive Design: Media queries are crucial for creating designs that work well on various devices, from mobile phones to large desktop screens. They help adjust layouts, font sizes, and other styles based on the viewport size.
+Difference Between min-width and max-width in Media Queries
+min-width: Applies styles when the viewport width is greater than or equal to the specified value. It’s used for responsive design targeting larger devices (like tablets and desktops) starting from a certain width.
+
+Example:
+css
+Copy code
+@media (min-width: 768px) {
+  .sidebar {
+    display: block;
+  }
+}
+max-width: Applies styles when the viewport width is less than or equal to the specified value. It’s used to target smaller devices (like mobile phones) up to a certain width.
+
+Example:
+css
+Copy code
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+Float Property and Clear Property in CSS
+Float Property: Used to position elements to the left or right of their containing element, allowing text and inline elements to wrap around them.
+
+Values:
+
+left: Floats the element to the left of its container.
+right: Floats the element to the right of its container.
+none: The element does not float (default value).
+inherit: Inherits the float value from its parent.
+Example:
+
+css
+Copy code
+.float-left {
+  float: left;
+  width: 200px;
+  margin: 10px;
+}
+
+.text {
+  margin-left: 220px; /* Ensure text does not overlap the floated element */
+}
+Clear Property: Used to control the behavior of elements following a floated element. It ensures that elements are not positioned next to floated elements but are moved below them.
+
+Values:
+
+left: Clears floating elements on the left.
+right: Clears floating elements on the right.
+both: Clears floating elements on both sides.
+none: The element is not cleared (default value).
+Example:
+
+css
+Copy code
+.clear-both {
+  clear: both; /* Moves the element below any floated elements */
+}
+Combined Example:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .float-left {
+      float: left;
+      width: 200px;
+      margin: 10px;
+      background-color: lightblue;
+    }
+    .text {
+      margin-left: 220px;
+    }
+    .clear-both {
+      clear: both;
+      background-color: lightgreen;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="float-left">Floated Element</div>
+  <div class="text">This text wraps around the floated element.</div>
+  <div class="clear-both">This element is cleared and placed below the floated element.</div>
+</body>
+</html>
+Summary
+Media Queries are used to apply styles based on the viewport or device characteristics, enabling responsive design.
+min-width targets larger viewports while max-width targets smaller viewports.
+Float Property positions elements to the left or right, allowing text to wrap around them, while Clear Property manages the positioning of elements following floated elements, ensuring proper layout and separation.
